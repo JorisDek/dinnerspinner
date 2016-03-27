@@ -1,0 +1,18 @@
+<div class="row">
+    <div class="col-md-12">
+        <div ng-model="dinners">
+            <div ng-repeat="dinner in dinners" class="panel panel-primary">
+                <div class="panel-heading">{{dinner.name}}</div>
+                <div class="panel-body">
+                    <p><strong>Ingerdients: </strong>{{dinner.ingerdients}}</p>
+                    <p><strong>Preperation: </strong>{{dinner.preperation}}</p>
+                    <p><strong>Misc: </strong>{{dinner.misc}}</p>
+                    <p><strong>Price: </strong>{{dinner.price}}</p>
+                    <p><strong>Cheap: </strong>{{dinner.cheap}}</p>
+                    <p><strong>Easy: </strong>{{dinner.easy}}</p>
+                    <p><strong>Fast: </strong>{{dinner.fast}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

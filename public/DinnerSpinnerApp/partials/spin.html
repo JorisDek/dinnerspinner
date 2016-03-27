@@ -1,0 +1,33 @@
+<div class="row">
+    <div class="col-md-12">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <form class="form-inline">
+                    <div class="checkbox">
+                        <label>
+                            <input ng-model="formData.spinner.cheap" type="checkbox" name="spinner">
+                            Cheap
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input ng-model="formData.spinner.easy" type="checkbox" name="spinner">
+                            Easy
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input ng-model="formData.spinner.fast" type="checkbox" name="spinner">
+                            Fast
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+                
+                <pre>
+                    {{formData}}
+                </pre>
+            </div>
+        </div>
+    </div>
+</div>
